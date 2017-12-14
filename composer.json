@@ -1,6 +1,6 @@
 {
     "name": "tidal/b3-headers",
-    "description": "Interface for Zipkin B3 propagation headers",
+    "description": "An Interface which provides Zipkin B3 propagation headers as constants",
     "keywords": ["zipkin", "b3", "headers", "b3-propagation"],
     "type": "library",
     "license": "MIT",
@@ -15,5 +15,8 @@
         "psr-4": {
             "Tidal\\Zipkin\\" : "src"
         }
+    },
+    "require": {
+        "php" : "^5.3.2 || ^7.0"
     }
 }
