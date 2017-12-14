@@ -1,0 +1,19 @@
+{
+    "name": "tidal/b3-headers",
+    "description": "Interface for Zipkin B3 propagation headers",
+    "keywords": ["zipkin", "b3", "headers", "b3-propagation"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Timo Michna",
+            "email": "timomichna@yahoo.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Tidal\\Zipkin\\" : "src"
+        }
+    }
+}
